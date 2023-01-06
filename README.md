@@ -25,11 +25,11 @@
                             tabindex="0" aria-hidden="true"></span>
                         <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
 
-                            <!-- <div class="SelectMenu-filter">
+                            <div class="SelectMenu-filter">
                                 <input class="SelectMenu-input form-control js-filterable-field" id="toc-filter-field"
                                     type="text" autocomplete="off" spellcheck="false" autofocus=""
                                     placeholder="Filter headings" aria-label="Filter headings">
-                            </div> -->
+                            </div>
 
                             <div class="SelectMenu-list SelectMenu-list--borderless p-2"
                                 style="overscroll-behavior: contain;" data-filterable-for="toc-filter-field"
@@ -42,7 +42,7 @@
                                     data-hydro-click-hmac="355b6dab2220827ee773a5b65d45ce4d75c5ba264be62fde54dc6b4a70fa9c86"
                                     href="#what-is-the-equinox-project" aria-current="page">What is the Equinox
                                     Project?</a>
-
+                                    
                                 <a role="menuitem"
                                     class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 "
                                     style="-webkit-box-orient: vertical; padding-left: 24px;"
