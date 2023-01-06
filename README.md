@@ -75,9 +75,9 @@
                     </path>
                     
                 </svg>
-            <!-- </a>Want to learn everything? <g-emoji class="g-emoji" alias="mortar_board"
-                fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png">🎓 -->
-            <!-- </g-emoji> -->
+            </a>Want to learn everything? <g-emoji class="g-emoji" alias="mortar_board"
+                fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png">🎓
+            </g-emoji>
         </h2>
         <p dir="auto">Check my online courses at <a href="https://desenvolvedor.io" rel="nofollow">desenvolvedor.io</a>
         </p>
