@@ -1,6 +1,6 @@
 ﻿
 
-using Infra.CrossCutting.IoC;
+using Infra.Ioc;
 
 namespace Api.Configurations
 {

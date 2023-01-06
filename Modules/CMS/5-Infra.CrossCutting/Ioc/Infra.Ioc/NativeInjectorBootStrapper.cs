@@ -1,18 +1,17 @@
-﻿
-using Application.CustomerService.Command;
+﻿using Application.CustomerService.Command;
 using Application.Interface;
 using Domain.Common;
 using Domain.CustomerAggregate.Commands.Command;
 using Domain.CustomerAggregate.Commands.Handlers;
 using Domain.CustomerAggregate.Interfaces.IRepository;
 using FluentValidation.Results;
-using Infra.CrossCutting.Bus;
+using Infra.Bus;
 using Infra.Data.Data.Context.EFContext;
 using Infra.Data.Data.Repository;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infra.CrossCutting.IoC
+namespace Infra.Ioc
 {
     public static class NativeInjectorBootStrapper
     {

@@ -1,12 +1,10 @@
-﻿
-
-using Domain.Common;
+﻿using Domain.Common;
 using Domain.Events;
 using Domain.Framework;
 using FluentValidation.Results;
 using MediatR;
 
-namespace Infra.CrossCutting.Bus
+namespace Infra.Bus
 {
     public sealed class InMemoryBus : IMediatorHandler
     {
