@@ -6,28 +6,29 @@
             </path>
         </svg></a>What is the Equinox Project?</h1>
 
-<p dir="auto">The Equinox Project is a open-source project written in .NET Core</p>
+<p dir="auto">The AMS_Store Project is a open-source project written in .NET Core</p>
 
-<p dir="auto">The goal of this project is implement the most common used technologies and share with the technical
+<p dir="auto">The goal of this project is to practice and implement the most common used technologies and share with the technical
     community the best way to develop great applications with .NET</p>
 
-<p dir="auto"><a href="https://ci.appveyor.com/project/EduardoPires/equinoxproject" rel="nofollow"><img
+<p dir="auto">
+    <!-- <a href="https://ci.appveyor.com/project/EduardoPires/equinoxproject" rel="nofollow"><img
             src="https://camo.githubusercontent.com/69433b15c3f434560b81ff32cc3a7c1c04706ea0b4ecd352235e69abbc0e6095/68747470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656374732f7374617475732f726c326a6136393939347274336569363f7376673d74727565"
             alt="Build status"
             data-canonical-src="https://ci.appveyor.com/api/projects/status/rl2ja69994rt3ei6?svg=true"
-            style="max-width: 100%;"></a>
+            style="max-width: 100%;"></a> -->
     <a target="_blank" rel="noopener noreferrer"
         href="https://github.com/EduardoPires/EquinoxProject/workflows/.NET%20Core/badge.svg"><img
             src="https://github.com/EduardoPires/EquinoxProject/workflows/.NET%20Core/badge.svg" alt=".NET Core"
             style="max-width: 100%;"></a>
-    <a href="/EduardoPires/EquinoxProject/blob/master/LICENSE"><img
+    <!-- <a href="/EduardoPires/EquinoxProject/blob/master/LICENSE"><img
             src="https://camo.githubusercontent.com/c773a03efdfeb4801978365451027f45b32d52b7debcc211e188e1068de226ec/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6564756172646f70697265732f657175696e6f7870726f6a6563742e737667"
             alt="License" data-canonical-src="https://img.shields.io/github/license/eduardopires/equinoxproject.svg"
             style="max-width: 100%;"></a>
     <a href="https://huboard.com/EduardoPires/EquinoxProject/" rel="nofollow"><img
             src="https://camo.githubusercontent.com/0a052e2566dd07663156bd38464b4ca22710125bf8e5879a475a636d5e88f0d1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f6564756172646f70697265732f657175696e6f7870726f6a6563742e737667"
             alt="Issues open" data-canonical-src="https://img.shields.io/github/issues/eduardopires/equinoxproject.svg"
-            style="max-width: 100%;"></a>
+            style="max-width: 100%;"></a> -->
 </p>
 
 
