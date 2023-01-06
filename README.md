@@ -182,4 +182,9 @@
         </svg></a>About:</h2>
 <p dir="auto">The AMS-Store Project was developed by 
     <a href="https://github.com/alirezabagheri4" rel="nofollow">Alireza Bagheri</a>
-    <a href="https://github.com/milad-bg" rel="nofollow">Milad Baghlani</a>.</p>
+    and 
+    <a href="https://github.com/milad-bg" rel="nofollow">Milad Baghlani</a>
+    <!-- and
+    <a href="https://github.com/milad-bg" rel="nofollow">Sadegh Alipour</a> -->
+    .
+</p>
