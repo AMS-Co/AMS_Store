@@ -10,7 +10,7 @@
                     data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:76425236,&quot;originating_url&quot;:&quot;https://github.com/EduardoPires/EquinoxProject&quot;,&quot;user_id&quot;:78638285}}"
                     data-menu-hydro-click-hmac="0fc6fcc0e08166efb4ee4529b8edd172843cf0211933ea94f5fb983510b7c9bd"
                     class="dropdown details-reset details-overlay">
-                    <!-- <summary class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup="menu" aria-label="Table of Contents"
+                    <summary class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup="menu" aria-label="Table of Contents"
                         role="button">
                         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
                             data-view-component="true" class="octicon octicon-list-unordered">
@@ -18,7 +18,7 @@
                                 d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z">
                             </path>
                         </svg>
-                    </summary> -->
+                    </summary>
 
 
                     <details-menu class="SelectMenu" role="menu" data-focus-trap="active"><span class="sentinel"
