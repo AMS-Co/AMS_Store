@@ -30,34 +30,28 @@
 
         <p dir="auto">The Equinox Project is a open-source project written in .NET Core</p>
         <p dir="auto">The goal of this project is to practice and implement the most common used technologies</p>
-
-
-        <p dir="auto">
-            <!-- <a href="https://ci.appveyor.com/project/EduardoPires/equinoxproject" rel="nofollow"><img
+        <p dir="auto"><a href="https://ci.appveyor.com/project/EduardoPires/equinoxproject" rel="nofollow"><img
                     src="https://camo.githubusercontent.com/69433b15c3f434560b81ff32cc3a7c1c04706ea0b4ecd352235e69abbc0e6095/68747470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656374732f7374617475732f726c326a6136393939347274336569363f7376673d74727565"
                     alt="Build status"
                     data-canonical-src="https://ci.appveyor.com/api/projects/status/rl2ja69994rt3ei6?svg=true"
-                    style="max-width: 100%;"></a> -->
+                    style="max-width: 100%;"></a>
             <a target="_blank" rel="noopener noreferrer"
                 href="https://github.com/EduardoPires/EquinoxProject/workflows/.NET%20Core/badge.svg"><img
                     src="https://github.com/EduardoPires/EquinoxProject/workflows/.NET%20Core/badge.svg" alt=".NET Core"
                     style="max-width: 100%;"></a>
-            <!-- <a href="/EduardoPires/EquinoxProject/blob/master/LICENSE"><img
+            <a href="/EduardoPires/EquinoxProject/blob/master/LICENSE"><img
                     src="https://camo.githubusercontent.com/c773a03efdfeb4801978365451027f45b32d52b7debcc211e188e1068de226ec/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6564756172646f70697265732f657175696e6f7870726f6a6563742e737667"
                     alt="License"
                     data-canonical-src="https://img.shields.io/github/license/eduardopires/equinoxproject.svg"
-                    style="max-width: 100%;"></a> -->
-            <!-- <a href="https://huboard.com/EduardoPires/EquinoxProject/" rel="nofollow"><img
+                    style="max-width: 100%;"></a>
+            <a href="https://huboard.com/EduardoPires/EquinoxProject/" rel="nofollow"><img
                     src="https://camo.githubusercontent.com/0a052e2566dd07663156bd38464b4ca22710125bf8e5879a475a636d5e88f0d1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f6564756172646f70697265732f657175696e6f7870726f6a6563742e737667"
                     alt="Issues open"
                     data-canonical-src="https://img.shields.io/github/issues/eduardopires/equinoxproject.svg"
-                    style="max-width: 100%;"></a> -->
+                    style="max-width: 100%;"></a>
         </p>
-
-        <h2 dir="auto"><a id="user-content-give-a-star-star" class="anchor" 
-            aria-hidden="true"
-                href="#give-a-star-star"><svg class="octicon octicon-link" 
-                viewBox="0 0 16 16" version="1.1" width="16"
+        <h2 dir="auto"><a id="user-content-give-a-star-star" class="anchor" aria-hidden="true"
+                href="#give-a-star-star"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16"
                     height="16" aria-hidden="true">
                     <path fill-rule="evenodd"
                         d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
@@ -65,7 +59,6 @@
                 </svg></a>Give a Star! <g-emoji class="g-emoji" alias="star"
                 fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐</g-emoji>
         </h2>
-
         <p dir="auto">If you liked the project or if Equinox helped you, please give a star ;)</p>
         <h2 dir="auto"><a id="user-content-want-to-learn-everything--mortar_board" class="anchor" aria-hidden="true"
                 href="#want-to-learn-everything--mortar_board"><svg class="octicon octicon-link" viewBox="0 0 16 16"
@@ -73,11 +66,8 @@
                     <path fill-rule="evenodd"
                         d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
                     </path>
-                    
-                </svg>
-            </a>Want to learn everything? <g-emoji class="g-emoji" alias="mortar_board"
-                fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png">🎓
-            </g-emoji>
+                </svg></a>Want to learn everything? <g-emoji class="g-emoji" alias="mortar_board"
+                fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png">🎓</g-emoji>
         </h2>
         <p dir="auto">Check my online courses at <a href="https://desenvolvedor.io" rel="nofollow">desenvolvedor.io</a>
         </p>
