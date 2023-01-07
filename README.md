@@ -73,17 +73,19 @@
 
 <ul dir="auto">
     <li>ASP.NET 6.0</li>
-    <li>ASP.NET MVC Core</li>
-    <li>ASP.NET WebApi Core with JWT Bearer Authentication</li>
-    <li>ASP.NET Identity Core</li>
+    <li> </li>
+    <li>ASP.NET WebApi Core</li>
+    <li> </li>
     <li>Entity Framework Core 6.0</li>
+    <li>Dapper</li>
+    <li>Ado .Net</li>
     <li>.NET Core Native DI</li>
     <li>AutoMapper</li>
     <li>FluentValidator</li>
     <li>MediatR</li>
     <li>Swagger UI with JWT support</li>
     <li>.NET DevPack</li>
-    <li>.NET DevPack.Identity</li>
+    <li> </li>
 </ul>
 
 <h2 dir="auto"><a id="user-content-architecture" class="anchor" aria-hidden="true" href="#architecture"><svg
