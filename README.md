@@ -99,10 +99,9 @@
                 </h2>
 <ul dir="auto">
     <li>Full architecture with responsibility separation concerns, SOLID and Clean Code</li>
-    <li>Domain Driven Design (Layers and Domain Model Pattern)</li>
-  
+    <li>Domain Driven Design (Layers and Domain Model Pattern) </li>
     <li>Domain Validations</li>
-    <li>CQRS (Imediate Consistency)</li>
+    <li>CQRS (Imediate Consistency) </li>
     <li>Event Sourcing</li>
     <li>Unit of Work</li>
     <li>Repository</li>
