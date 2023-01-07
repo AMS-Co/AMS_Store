@@ -72,8 +72,8 @@
         </svg></a>Technologies implemented:</h2>
 
 <ul dir="auto">
+    <li>Micro Service</li>
     <li>ASP.NET 6.0</li>
-    <li> </li>
     <li>ASP.NET WebApi Core</li>
     <li> </li>
     <li>Entity Framework Core 6.0</li>
@@ -84,8 +84,12 @@
     <li>FluentValidator</li>
     <li>MediatR</li>
     <li>Swagger UI with JWT support</li>
-    <li>.NET DevPack</li>
-    <li> </li>
+    <li>Rabbit MQ</li>
+    <li>kafka</li>
+        <li>Redis</li>
+           <li>Sql Server</li>
+              <li>Elastic Search</li>
+                <li>Mongo Db</li>
 </ul>
 
 <h2 dir="auto"><a id="user-content-architecture" class="anchor" aria-hidden="true" href="#architecture"><svg
@@ -97,13 +101,14 @@
 <ul dir="auto">
     <li>Full architecture with responsibility separation concerns, SOLID and Clean Code</li>
     <li>Domain Driven Design (Layers and Domain Model Pattern)</li>
-    <li>Domain Events</li>
-    <li>Domain Notification</li>
+  
     <li>Domain Validations</li>
     <li>CQRS (Imediate Consistency)</li>
     <li>Event Sourcing</li>
     <li>Unit of Work</li>
     <li>Repository</li>
+          <li>Domain Events</li>
+    <li>Domain Notification</li>
 </ul>
 
 <h2 dir="auto"><a id="user-content-news" class="anchor" aria-hidden="true" href="#news"><svg
