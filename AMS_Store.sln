@@ -23,13 +23,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra.Data", "4-Infra.Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra.CrossCutting", "5-Infra.CrossCutting", "{968B3CBC-7887-414F-9447-6AB73A55F87D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Modules\CMS\1-Service\Api\Api.csproj", "{9AC48C69-B021-4278-B68D-033D356319BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Modules\CMS\1-Service\Api\Api.csproj", "{9AC48C69-B021-4278-B68D-033D356319BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Modules\CMS\2-Application\Application\Application.csproj", "{00420DE8-3F19-4876-BAA1-5B17441F4CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Modules\CMS\2-Application\Application\Application.csproj", "{00420DE8-3F19-4876-BAA1-5B17441F4CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Modules\CMS\3-Domain\Domain\Domain.csproj", "{BDD92290-E14D-4876-A678-4E2D81723FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Modules\CMS\3-Domain\Domain\Domain.csproj", "{BDD92290-E14D-4876-A678-4E2D81723FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "Modules\CMS\4-Infra.Data\Infra.Data\Infra.Data.csproj", "{68D1999A-D2CC-449B-A8EE-301211A1E2DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "Modules\CMS\4-Infra.Data\Infra.Data\Infra.Data.csproj", "{68D1999A-D2CC-449B-A8EE-301211A1E2DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{3EFC8882-01B0-46D3-A46B-E3319ACECB92}"
 EndProject
@@ -37,9 +37,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{DB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{1FFF1C33-4663-4DA4-9293-88DB23A28B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Bus", "Modules\CMS\5-Infra.CrossCutting\Bus\Infra.Bus\Infra.Bus.csproj", "{509C5C53-DC11-4A4E-8228-973F3D6FD4DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Bus", "Modules\CMS\5-Infra.CrossCutting\Bus\Infra.Bus\Infra.Bus.csproj", "{509C5C53-DC11-4A4E-8228-973F3D6FD4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Ioc", "Modules\CMS\5-Infra.CrossCutting\Ioc\Infra.Ioc\Infra.Ioc.csproj", "{B52E05CD-ECA1-4A5B-99F9-4D3AFDA9A809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Ioc", "Modules\CMS\5-Infra.CrossCutting\Ioc\Infra.Ioc\Infra.Ioc.csproj", "{B52E05CD-ECA1-4A5B-99F9-4D3AFDA9A809}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Service", "1-Service", "{87284653-7C9A-4DC3-9764-1347CE220A98}"
 EndProject
@@ -60,6 +60,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra.Data", "4-Infra.Data", "{854A697E-3B56-40A4-9E60-DDD38E9932DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra.CrossCutting", "5-Infra.CrossCutting", "{401108F0-323C-472A-BCCB-55C4B6E77B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Modules\OMS\1-Service\Api\Api.csproj", "{AFB4B52B-AD59-4820-8AEF-81FC945BB847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{B52E05CD-ECA1-4A5B-99F9-4D3AFDA9A809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B52E05CD-ECA1-4A5B-99F9-4D3AFDA9A809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B52E05CD-ECA1-4A5B-99F9-4D3AFDA9A809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB4B52B-AD59-4820-8AEF-81FC945BB847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB4B52B-AD59-4820-8AEF-81FC945BB847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB4B52B-AD59-4820-8AEF-81FC945BB847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB4B52B-AD59-4820-8AEF-81FC945BB847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{7BE9C5A0-022D-4251-8032-571A73F831CB} = {6A2EDDA4-A32D-43F0-ACE4-D429B2C1E284}
 		{854A697E-3B56-40A4-9E60-DDD38E9932DF} = {6A2EDDA4-A32D-43F0-ACE4-D429B2C1E284}
 		{401108F0-323C-472A-BCCB-55C4B6E77B9B} = {6A2EDDA4-A32D-43F0-ACE4-D429B2C1E284}
+		{AFB4B52B-AD59-4820-8AEF-81FC945BB847} = {3FED65A9-B1ED-467D-98BA-23936687BD1D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DAE9B30F-EEC9-4F61-9CA6-8E096980F57D}
