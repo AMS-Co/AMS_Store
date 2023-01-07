@@ -9,10 +9,20 @@ namespace Domain.Framework
     public abstract class BaseEntity
     {
         public virtual long Id { get; protected set; }
+
         public virtual DateTime SubmitDate { get; protected set; }
 
         private List<Event> _domainEvents;
-        public IReadOnlyCollection<Event> DomainEvents => _domainEvents?.AsReadOnly();
+        public IReadOnlyCollection<Event> DomainEvents
+        {
+            get
+            {
+                List<Event> domainEvents = this._domainEvents;
+                return domainEvents == null ?
+                    (IReadOnlyCollection<Event>)null :
+                    (IReadOnlyCollection<Event>)domainEvents.AsReadOnly();
+            }
+        }
 
         public void AddDomainEvent(Event domainEvent)
         {

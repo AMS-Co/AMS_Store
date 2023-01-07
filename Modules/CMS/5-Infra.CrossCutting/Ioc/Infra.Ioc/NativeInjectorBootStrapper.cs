@@ -6,6 +6,7 @@ using Domain.CustomerAggregate.Commands.Handlers;
 using Domain.CustomerAggregate.Interfaces.IRepository;
 using FluentValidation.Results;
 using Infra.Bus;
+using Infra.Data.Data.Context;
 using Infra.Data.Data.Context.EFContext;
 using Infra.Data.Data.Repository;
 using MediatR;
@@ -35,6 +36,7 @@ namespace Infra.Ioc
 
             // Infra - Data
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            //services.AddScoped<CustomerContext>();
             services.AddScoped<CustomerDbContext>();
 
             // Infra - Data EventSourcing

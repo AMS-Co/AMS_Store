@@ -32,7 +32,8 @@ namespace Infra.Data.Data.Repository
 
         public async Task<IEnumerable<Customer>> GetAll()
         {
-            return await _dbSet.ToListAsync();
+            var result= await _dbSet.Include(x=>x.Address).AsNoTracking().ToListAsync();
+            return result;
         }
 
         public void Add(Customer customer)

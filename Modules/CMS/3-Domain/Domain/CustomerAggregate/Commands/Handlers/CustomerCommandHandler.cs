@@ -2,11 +2,6 @@
 using Domain.CustomerAggregate.Commands.Command;
 using Domain.CustomerAggregate.Interfaces.IRepository;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Domain.CustomerAggregate.Models;
 
 namespace Domain.CustomerAggregate.Commands.Handlers

@@ -16,9 +16,9 @@ namespace Domain.Common
             ValidationResult = new ValidationResult();
         }
 
-        protected void AddError(string mensagem)
+        protected void AddError(string messagem)
         {
-            ValidationResult.Errors.Add(new ValidationFailure(string.Empty, mensagem));
+            ValidationResult.Errors.Add(new ValidationFailure(string.Empty, messagem));
         }
 
         protected async Task<ValidationResult> Commit(IUnitOfWork uow, string message)

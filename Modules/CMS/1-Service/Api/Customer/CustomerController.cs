@@ -23,14 +23,16 @@ namespace Api.Customer
         [HttpGet("customer-management")]
         public async Task<IEnumerable<CustomerViewModel>> Get()
         {
-            return await _customerAppService.GetAll();
+            var result= await _customerAppService.GetAll();
+            return result;
         }
 
         [AllowAnonymous]
         [HttpGet("customer-management/{id:guid}")]
         public async Task<CustomerViewModel> Get(long id)
         {
-            return await _customerAppService.GetById(id);
+            var result= await _customerAppService.GetById(id);
+            return result;
         }
 
         [AllowAnonymous]
