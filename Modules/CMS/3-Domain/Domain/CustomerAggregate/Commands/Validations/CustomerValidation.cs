@@ -69,7 +69,8 @@ namespace Domain.CustomerAggregate.Commands.Validations
             return birthDate <= DateTime.Now.AddYears(-18);
         }
 
-        protected static bool ValidatePhoneNumberDetail(string phoneNumber) => phoneNumber.IsValidIranianPhoneNumber();
+        protected static bool ValidatePhoneNumberDetail(string phoneNumber) 
+            => phoneNumber.IsValidIranianPhoneNumber();
         protected static bool ValidateNationalCodeDetail(string nationalCode) => nationalCode.IsValidIranianNationalCode();
         protected static bool ValidateIdCode(long id) => id > 0;
     }

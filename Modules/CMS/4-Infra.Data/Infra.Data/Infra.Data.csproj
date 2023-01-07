@@ -23,4 +23,8 @@
     <ProjectReference Include="..\..\3-Domain\Domain\Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\QueryExtentions\" />
+  </ItemGroup>
+
 </Project>
