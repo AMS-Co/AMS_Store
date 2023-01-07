@@ -117,60 +117,12 @@
                 d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
             </path>
         </svg></a>News</h2>
+        
 <ul dir="auto">
     <li>Migrated for .NET 6.0</li>
     <li>All dependencies is up to date</li>
 </ul>
 
-<ul dir="auto">
-    <li>Migrated for .NET 5.0</li>
-    <li>All dependencies is up to date</li>
-</ul>
-
-<ul dir="auto">
-    <li>Full Refactoring (consistency, events, validation, identity)</li>
-    <li>Added <a href="https://github.com/NetDevPack">NetDevPack</a> and saving a hundreds of code lines</li>
-    <li>All dependencies is up to date</li>
-</ul>
-
-<ul dir="auto">
-    <li>Migrated for .NET Core 3.1.1</li>
-    <li>All dependencies is up to date</li>
-    <li>Added JWT (Bearer) authentication for WebAPI</li>
-    <li>Added JWT support in Swagger</li>
-</ul>
-
-<ul dir="auto">
-    <li>Migrated for .NET Core 2.2.1</li>
-    <li>All dependencies is up to date</li>
-    <li>Improvements for last version of MediatR (Notifications and Request)</li>
-</ul>
-
-<ul dir="auto">
-    <li>Migrated for .NET Core 2.1.2</li>
-    <li>All dependencies is up to date</li>
-    <li>Improvements in Automapper Setup</li>
-    <li>Improvements for last version of MediatR (Notifications and Request)</li>
-    <li>Code improvements in general</li>
-</ul>
-
-<ul dir="auto">
-    <li>Migrated for .NET Core 2.0 and ASP.NET Core 2.0</li>
-    <li>Adaptations for the new Identity Authentication Model</li>
-</ul>
-
-<ul dir="auto">
-    <li>Adding WebAPI service exposing the application features</li>
-    <li>Adding Swagger UI for better viewing and testing</li>
-    <li>Adding MediatR for Memory Bus Messaging</li>
-</ul>
-
-<ul dir="auto">
-    <li><strong>NOT</strong> intended to be a definitive solution</li>
-    <li>Beware to use in production way</li>
-    <li>Maybe you don't need a lot of implementations that is included, try avoid the <strong>over engineering</strong>
-    </li>
-</ul>
 
 <h2 dir="auto"><a id="user-content-pull-requests" class="anchor" aria-hidden="true" href="#pull-requests"><svg
             class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
