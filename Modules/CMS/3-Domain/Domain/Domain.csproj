@@ -7,14 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CustomerAggregate\NewFolder\**" />
+    <EmbeddedResource Remove="CustomerAggregate\NewFolder\**" />
+    <None Remove="CustomerAggregate\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DNTPersianUtils.Core" Version="5.4.9" />
     <PackageReference Include="FluentValidation" Version="11.4.0" />
     <PackageReference Include="MediatR" Version="11.1.0" />
     <PackageReference Include="MediatR.Contracts" Version="1.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="CustomerAggregate\NewFolder\" />
   </ItemGroup>
 
 </Project>

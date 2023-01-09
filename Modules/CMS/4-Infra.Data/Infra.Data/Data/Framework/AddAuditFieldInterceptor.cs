@@ -10,6 +10,13 @@ namespace Infra.Data.Data.Framework
             return base.SavingChanges(eventData, result);
         }
 
+        public override ValueTask<InterceptionResult<int>> SavingChangesAsync(DbContextEventData eventData,
+            InterceptionResult<int> result, CancellationToken cancellationToken = default)
+        {
+            SetShadowProperties(eventData);
+            return base.SavingChangesAsync(eventData, result, cancellationToken);
+        }
+
         private static void SetShadowProperties(DbContextEventData eventData)
         {
             var changeTracker = eventData.Context.ChangeTracker;
@@ -29,13 +36,6 @@ namespace Infra.Data.Data.Framework
                 item.Property("UpdateBy").CurrentValue = "1";
                 item.Property("UpdateDate").CurrentValue = now;
             }
-        }
-
-        public override ValueTask<InterceptionResult<int>> SavingChangesAsync(DbContextEventData eventData,
-            InterceptionResult<int> result, CancellationToken cancellationToken = default)
-        {
-            SetShadowProperties(eventData);
-            return base.SavingChangesAsync(eventData, result, cancellationToken);
         }
     }
 }

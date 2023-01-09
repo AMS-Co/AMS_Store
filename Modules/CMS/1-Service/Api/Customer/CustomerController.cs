@@ -1,6 +1,7 @@
 ﻿using Api.Framework;
 using Application.Interface;
 using Application.ViewModel;
+using Domain.CustomerAggregate.Commands.Command;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,7 +22,7 @@ namespace Api.Customer
 
         [AllowAnonymous]
         [HttpGet("customer-management")]
-        public async Task<IEnumerable<CustomerViewModel>> Get()
+        public async Task<IEnumerable<CustomerViewModel>> Get(RegisterNewCustomerCommand customer)
         {
             var result= await _customerAppService.GetAll();
             return result;
