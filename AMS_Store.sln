@@ -61,13 +61,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra.Data", "4-Infra.Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra.CrossCutting", "5-Infra.CrossCutting", "{401108F0-323C-472A-BCCB-55C4B6E77B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Modules\OMS\1-Service\Api\Api.csproj", "{AFB4B52B-AD59-4820-8AEF-81FC945BB847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Modules\OMS\1-Service\Api\Api.csproj", "{AFB4B52B-AD59-4820-8AEF-81FC945BB847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Modules\OMS\2-Application\Application\Application.csproj", "{F810E2A2-6C42-4E1A-B2F7-9FA35BF135B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Modules\OMS\2-Application\Application\Application.csproj", "{F810E2A2-6C42-4E1A-B2F7-9FA35BF135B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Modules\OMS\3-Domain\Domain\Domain.csproj", "{882CB5BE-E0C4-4EE7-94CA-91A068459973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Modules\OMS\3-Domain\Domain\Domain.csproj", "{882CB5BE-E0C4-4EE7-94CA-91A068459973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "Modules\OMS\4-Infra.Data\Infra.Data\Infra.Data.csproj", "{ABCF9599-A769-4153-B644-6F51D9235EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "Modules\OMS\4-Infra.Data\Infra.Data\Infra.Data.csproj", "{ABCF9599-A769-4153-B644-6F51D9235EB7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{9DD62F61-4C29-4B8B-A7B7-81F755A03D58}"
 EndProject
@@ -75,9 +75,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{5B696576-785
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{419FCDE4-628F-402F-98DA-A431D29055C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Bus", "Modules\OMS\5-Infra.CrossCutting\Bus\Infra.Bus\Infra.Bus.csproj", "{792383AB-83D0-4301-80CC-24336FEFB4AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Bus", "Modules\OMS\5-Infra.CrossCutting\Bus\Infra.Bus\Infra.Bus.csproj", "{792383AB-83D0-4301-80CC-24336FEFB4AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Ioc", "Modules\OMS\5-Infra.CrossCutting\Ioc\Infra.Ioc\Infra.Ioc.csproj", "{8046A1D8-0B31-4A10-824F-A060A4C6049C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Ioc", "Modules\OMS\5-Infra.CrossCutting\Ioc\Infra.Ioc\Infra.Ioc.csproj", "{8046A1D8-0B31-4A10-824F-A060A4C6049C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Test", "0-Test", "{DC925631-1E04-4BD7-AEAA-554DB6B2953B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Test", "0-Test", "{683674E6-1070-4503-9A92-400B9D8F419C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -174,6 +178,8 @@ Global
 		{419FCDE4-628F-402F-98DA-A431D29055C3} = {401108F0-323C-472A-BCCB-55C4B6E77B9B}
 		{792383AB-83D0-4301-80CC-24336FEFB4AF} = {5B696576-785D-40DB-817D-61DF52BE9FCB}
 		{8046A1D8-0B31-4A10-824F-A060A4C6049C} = {9DD62F61-4C29-4B8B-A7B7-81F755A03D58}
+		{DC925631-1E04-4BD7-AEAA-554DB6B2953B} = {D029B947-0213-4524-930F-DBE846093AC3}
+		{683674E6-1070-4503-9A92-400B9D8F419C} = {6A2EDDA4-A32D-43F0-ACE4-D429B2C1E284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DAE9B30F-EEC9-4F61-9CA6-8E096980F57D}
