@@ -75,7 +75,6 @@
     <li>Micro Service</li>
     <li>ASP.NET 6.0</li>
     <li>ASP.NET WebApi Core</li>
-    <li> </li>
     <li>Entity Framework Core 6.0</li>
     <li>Dapper</li>
     <li>Ado .Net</li>
