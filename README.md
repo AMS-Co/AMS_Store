@@ -77,7 +77,7 @@
     <li>ASP.NET WebApi Core</li>
     <li>Entity Framework Core 6.0</li>
     <li>Dapper</li>
-    <li>Ado .Net</li>
+    <li>ADO .Net</li>
     <li>.NET Core Native DI</li>
     <li>AutoMapper</li>
     <li>FluentValidator</li>
