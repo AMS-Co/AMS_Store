@@ -6,7 +6,6 @@ using Domain.CustomerAggregate.Commands.Handlers;
 using Domain.CustomerAggregate.Interfaces.IRepository;
 using FluentValidation.Results;
 using Infra.Bus;
-using Infra.Data.Data.Context;
 using Infra.Data.Data.Context.EFContext;
 using Infra.Data.Data.Repository;
 using MediatR;
