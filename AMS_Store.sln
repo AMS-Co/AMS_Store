@@ -93,7 +93,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "Modules\PMS\4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Test", "0-Test", "{B2197C5C-01E6-4222-A28A-0DA173171733}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{782EFB82-26CF-477E-89EF-3C73BF57BA31}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LMS", "LMS", "{782EFB82-26CF-477E-89EF-3C73BF57BA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
