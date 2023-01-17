@@ -25,25 +25,23 @@ namespace Api.Extensions
             app.Map("/admin", myApp =>
             {
                 myApp.UseMiddleware<SecondMiddleware>();
-
             });
 
             app.Use(async (httpContext, next) =>
             {
-                if (httpContext.Request.Query.ContainsKey("AddText"))
+                if (httpContext.Request.Query.ContainsKey("Id"))
                 {
                     httpContext.Response.ContentType = "text/html";
-                    await httpContext.Response.WriteAsync("Use Middleware executing");
+                    await httpContext.Response.WriteAsync("Use Middleware ---> Key=Id - Received successfully");
+                  
                 }
-                if (!httpContext.Request.Query.ContainsKey("Sh"))
+                if (httpContext.Request.Query.ContainsKey("Name"))
                 {
-                    await next();
-
+                    httpContext.Response.ContentType = "text/html";
+                    await httpContext.Response.WriteAsync("Use Middleware ---> Key=Name - Received successfully");
+                  
                 }
-                if (httpContext.Request.Query.ContainsKey("AddText"))
-                {
-                    await httpContext.Response.WriteAsync("Use Middleware executed ");
-                }
+                await next();
             });
 
             app.UseMiddleware<FirstMiddleware>();

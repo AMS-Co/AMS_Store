@@ -12,9 +12,9 @@
         public async Task Invoke(HttpContext context)
         {
             context.Response.ContentType = "text/html";
-            await context.Response.WriteAsync("Seccond Middleware Executing. \n");
-            await _next(context);
-            await context.Response.WriteAsync("Seccond Middleware Executed. \n");
+            await context.Response.WriteAsync("Middleware Root = admin ---> Executing ...    \n");
+            //admin Middleware
+            await context.Response.WriteAsync("Middleware Root = admin ---> Executed.         \n");
         }
     }
 }

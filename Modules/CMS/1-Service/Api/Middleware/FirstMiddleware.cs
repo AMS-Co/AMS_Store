@@ -13,12 +13,12 @@
         {
             if (context.Request.Query.ContainsKey("AddText"))
             {
-                await context.Response.WriteAsync("First Class Executing. \n");
+                await context.Response.WriteAsync("First Middleware Executing. \n");
             }
             await _next(context);
             if (context.Request.Query.ContainsKey("AddText"))
             {
-                await context.Response.WriteAsync("First Class Executed. \n");
+                await context.Response.WriteAsync("First Middleware Executed. \n");
             }
         }
     }
