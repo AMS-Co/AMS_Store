@@ -1,9 +1,9 @@
 ﻿using Api.Configurations;
 using MediatR;
 
-namespace Api.Builders
+namespace Api.Extensions
 {
-    public static class ServiceBuilder
+    public static class ServiceExtension
     {
         public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
         {
