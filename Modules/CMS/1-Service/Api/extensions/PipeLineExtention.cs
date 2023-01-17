@@ -33,7 +33,6 @@ namespace Api.Extensions
                 {
                     httpContext.Response.ContentType = "text/html";
                     await httpContext.Response.WriteAsync("Use Middleware ---> Key=Id - Received successfully");
-                  
                 }
                 if (httpContext.Request.Query.ContainsKey("Name"))
                 {
